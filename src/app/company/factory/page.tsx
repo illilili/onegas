@@ -28,20 +28,19 @@ export default function FactoryPage() {
           <div>
             <p className="text-lg font-semibold">원가스</p>
             <p className="mt-2 text-neutral-600">대전광역시 대덕구 신대동 411-34</p>
-            <p className="mt-1 text-neutral-500">원가스 산업</p>
           </div>
           <div className="space-y-3 text-neutral-700">
             <div className="flex items-center justify-between rounded-lg bg-neutral-50 px-4 py-3">
               <span className="font-semibold">TEL</span>
-              <span>044-268-4001~2</span>
+              <span>042-624-4001</span>
             </div>
             <div className="flex items-center justify-between rounded-lg bg-neutral-50 px-4 py-3">
               <span className="font-semibold">FAX</span>
-              <span>044-268-4003</span>
+              <span>042-624-4002</span>
             </div>
             <div className="flex items-center justify-between rounded-lg bg-neutral-50 px-4 py-3">
               <span className="font-semibold">E-mail</span>
-              <span>jeilgas4001@naver.com</span>
+              <span>onegas@naver.com</span>
             </div>
           </div>
         </div>
