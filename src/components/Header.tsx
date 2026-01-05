@@ -90,10 +90,10 @@ export default function Header() {
         </nav>
 
         <details className="group relative lg:hidden">
-          <summary className="flex cursor-pointer list-none items-center gap-2 rounded-full border px-3 py-2 text-sm font-semibold">
-            메뉴
+          <summary className="flex cursor-pointer list-none items-center px-2 py-1 text-sm font-semibold text-[color:var(--brand-blue)]">
+            <span className="text-2xl leading-none">≡</span>
           </summary>
-          <div className="absolute right-0 top-12 w-64 rounded-2xl border bg-white p-4 text-base shadow-lg">
+          <div className="absolute right-0 top-12 w-64 rounded-2xl border border-[color:var(--brand-blue-soft)] bg-white p-4 text-base shadow-lg">
             <nav className="space-y-3">
               {NAV_ITEMS.map((item) => (
                 <div key={item.label} className="space-y-2">
