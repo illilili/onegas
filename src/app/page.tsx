@@ -1,41 +1,34 @@
 import Link from "next/link";
+import MainSlider from "@/components/MainSlider";
 
 export default function HomePage() {
   return (
-    <div className="space-y-10">
-      <section className="rounded-2xl border p-8">
-        <h1 className="text-3xl font-bold">원가스</h1>
-        <p className="mt-3 text-gray-700">
-          가스 공급/유통 관련 소개 문구를 여기에 넣으세요.
-        </p>
+    <div className="space-y-16">
+      <MainSlider />
 
-        <div className="mt-6 flex gap-3">
-          <Link
-            href="/contact"
-            className="rounded-lg bg-black px-4 py-2 text-white text-sm"
-          >
-            문의하기
-          </Link>
-          <a
-            href="tel:000-0000-0000"
-            className="rounded-lg border px-4 py-2 text-sm"
-          >
-            전화하기
-          </a>
+      <section className="text-center">
+        <div className="inline-flex items-center justify-center rounded-full bg-[color:var(--brand-blue)] px-8 py-3 text-lg font-semibold text-white">
+          GMP 인증업체
         </div>
-      </section>
-
-      <section className="grid gap-4 md:grid-cols-3">
-        {[
-          { title: "서비스 1", desc: "서비스 설명" },
-          { title: "서비스 2", desc: "서비스 설명" },
-          { title: "서비스 3", desc: "서비스 설명" },
-        ].map((x) => (
-          <div key={x.title} className="rounded-2xl border p-6">
-            <div className="font-semibold">{x.title}</div>
-            <div className="mt-2 text-sm text-gray-700">{x.desc}</div>
-          </div>
-        ))}
+        <div className="mt-8 flex flex-col items-center gap-4">
+          <img
+            src="/images/main/gmp.png"
+            alt="GMP 인증"
+            className="h-20 w-auto object-contain"
+          />
+          <p className="text-base font-medium text-neutral-800">
+            의약품 제조 및 품질관리기준 적합판정서 획득
+          </p>
+          <p className="text-sm text-neutral-500">
+            Certificate of GMP Compliance of a Manufacturer
+          </p>
+        </div>
+        <Link
+          href="/product/medical"
+          className="mt-10 inline-flex items-center justify-center rounded-full border border-[color:var(--brand-blue)] px-8 py-3 text-sm font-semibold text-[color:var(--brand-blue)] hover:bg-[color:var(--brand-blue-soft)]"
+        >
+          의료용가스 바로가기
+        </Link>
       </section>
     </div>
   );

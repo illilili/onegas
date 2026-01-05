@@ -35,8 +35,9 @@ export async function POST(req: NextRequest) {
     const transporter = getTransporter();
     const { to, from } = getMailMeta();
 
-    const subject = `[원가스 문의] ${data.name} / ${data.phone}`;
+    const subject = `[원가스 문의] ${data.title} - ${data.name} / ${data.phone}`;
     const text = [
+      `제목: ${data.title}`,
       `이름: ${data.name}`,
       `연락처: ${data.phone}`,
       `이메일: ${data.email}`,
