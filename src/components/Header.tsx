@@ -47,17 +47,17 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-[color:var(--brand-blue-soft)] bg-white/95 backdrop-blur">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4">
-        <Link href="/" className="flex items-center gap-3 text-lg font-bold">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-5">
+        <Link href="/" className="flex items-center gap-3 text-xl font-bold">
           <img
             src="/images/common/logo.png"
             alt="원가스"
-            className="h-10 w-auto"
+            className="h-12 w-auto"
           />
           {/* <span className="hidden sm:inline">원가스</span> */}
         </Link>
 
-        <nav className="hidden items-center gap-8 text-sm font-medium lg:flex">
+        <nav className="hidden items-center gap-10 text-base font-medium lg:flex">
           {NAV_ITEMS.map((item) => (
             <div key={item.label} className="group relative">
               <Link
@@ -71,7 +71,7 @@ export default function Header() {
                 {item.label}
               </Link>
               {item.children && (
-                <div className="absolute left-1/2 top-full hidden w-44 -translate-x-1/2 rounded-xl border border-[color:var(--brand-blue-soft)] bg-white p-3 text-xs shadow-lg group-hover:block">
+                <div className="absolute left-1/2 top-full hidden w-48 -translate-x-1/2 rounded-xl border border-[color:var(--brand-blue-soft)] bg-white p-3 text-sm shadow-lg group-hover:block">
                   <div className="space-y-2">
                     {item.children.map((child) => (
                       <Link
@@ -90,10 +90,10 @@ export default function Header() {
         </nav>
 
         <details className="group relative lg:hidden">
-          <summary className="flex cursor-pointer list-none items-center gap-2 rounded-full border px-3 py-2 text-xs font-semibold">
+          <summary className="flex cursor-pointer list-none items-center gap-2 rounded-full border px-3 py-2 text-sm font-semibold">
             메뉴
           </summary>
-          <div className="absolute right-0 top-12 w-64 rounded-2xl border bg-white p-4 text-sm shadow-lg">
+          <div className="absolute right-0 top-12 w-64 rounded-2xl border bg-white p-4 text-base shadow-lg">
             <nav className="space-y-3">
               {NAV_ITEMS.map((item) => (
                 <div key={item.label} className="space-y-2">
@@ -101,7 +101,7 @@ export default function Header() {
                     {item.label}
                   </Link>
                   {item.children && (
-                    <div className="space-y-1 pl-2 text-xs text-neutral-600">
+                    <div className="space-y-1 pl-2 text-sm text-neutral-600">
                       {item.children.map((child) => (
                         <Link key={child.href} href={child.href} className="block">
                           {child.label}

@@ -70,7 +70,10 @@ export default function ContactForm() {
   };
 
   return (
-    <form onSubmit={onSubmit} className="rounded-2xl border p-6 space-y-4 max-w-xl">
+    <form
+      onSubmit={onSubmit}
+      className="max-w-3xl space-y-4 rounded-2xl border-2 border-[color:var(--brand-blue)] p-6 shadow-[6px_6px_16px_rgba(31,95,168,0.22)]"
+    >
       {/* honeypot: 사람이면 비워둠 */}
       <input
         value={form.website}

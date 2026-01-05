@@ -79,28 +79,40 @@ export default function MainSlider() {
             </div>
           </div>
           <div className="flex items-center gap-2">
-            <button type="button" onClick={goPrev} className="rounded-full bg-white/15 px-3">
-              이전
+            <button
+              type="button"
+              onClick={goPrev}
+              className="rounded-full bg-white/15 px-3"
+              aria-label="이전"
+            >
+              ←
             </button>
             {playing ? (
               <button
                 type="button"
                 onClick={() => setPlaying(false)}
                 className="rounded-full bg-white/15 px-3"
+                aria-label="일시정지"
               >
-                일시정지
+                ⏸
               </button>
             ) : (
               <button
                 type="button"
                 onClick={() => setPlaying(true)}
                 className="rounded-full bg-white/15 px-3"
+                aria-label="재생"
               >
-                재생
+                ▶
               </button>
             )}
-            <button type="button" onClick={goNext} className="rounded-full bg-white/15 px-3">
-              다음
+            <button
+              type="button"
+              onClick={goNext}
+              className="rounded-full bg-white/15 px-3"
+              aria-label="다음"
+            >
+              →
             </button>
           </div>
         </div>

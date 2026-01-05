@@ -7,7 +7,7 @@ export default function HomePage() {
       <MainSlider />
 
       <section className="text-center">
-        <div className="inline-flex items-center justify-center rounded-full bg-[color:var(--brand-blue)] px-8 py-3 text-lg font-semibold text-white">
+        <div className="inline-flex items-center justify-center rounded-sm bg-[color:var(--brand-blue)] px-12 py-5 text-2xl font-semibold text-white">
           GMP 인증업체
         </div>
         <div className="mt-8 flex flex-col items-center gap-4">
@@ -25,7 +25,7 @@ export default function HomePage() {
         </div>
         <Link
           href="/product/medical"
-          className="mt-10 inline-flex items-center justify-center rounded-full border border-[color:var(--brand-blue)] px-8 py-3 text-sm font-semibold text-[color:var(--brand-blue)] hover:bg-[color:var(--brand-blue-soft)]"
+          className="mt-10 inline-flex items-center justify-center rounded-full border border-[color:var(--brand-blue)] px-8 py-3 text-sm font-semibold text-[color:var(--brand-blue)] shadow-md hover:bg-[color:var(--brand-blue-soft)]"
         >
           의료용가스 바로가기
         </Link>
