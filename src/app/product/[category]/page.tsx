@@ -45,6 +45,16 @@ export default async function ProductCategoryPage({ params }: PageProps) {
             </div>
           </div>
         ))}
+        {category.specs?.length ? (
+          <div className="rounded-2xl border border-[color:var(--brand-blue-soft)] bg-white p-6 shadow-sm">
+            <h3 className="text-lg font-semibold">LGC 용기 사양</h3>
+            <ul className="mt-3 list-disc pl-5 text-sm leading-6 text-neutral-700">
+              {category.specs.map((spec) => (
+                <li key={spec}>{spec}</li>
+              ))}
+            </ul>
+          </div>
+        ) : null}
       </div>
     </SubLayout>
   );

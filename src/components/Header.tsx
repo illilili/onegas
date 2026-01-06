@@ -21,6 +21,7 @@ const NAV_ITEMS = [
     children: [
       { label: "일반가스", href: "/product/general" },
       { label: "의료용가스", href: "/product/medical" },
+      { label: "액체가스", href: "/product/liquid" },
       { label: "특수가스", href: "/product/special" },
       { label: "LPG", href: "/product/lpg" },
     ],

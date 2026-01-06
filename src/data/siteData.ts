@@ -9,6 +9,7 @@ export type ProductCategory = {
   label: string;
   heroImage: string;
   items: ProductItem[];
+  specs?: string[];
 };
 
 export const productCategories: ProductCategory[] = [
@@ -99,27 +100,41 @@ export const productCategories: ProductCategory[] = [
     ],
   },
   {
+    key: "liquid",
+    label: "액체가스",
+    heroImage: "/images/common/sv2.jpg",
+    items: [
+      {
+        title: "액체질소 (LN2)",
+        image: "/images/products/nitrogen.png",
+        description:
+          "극저온 액체질소는 급속 냉각과 장기 보존에 적합해 금속 열처리, 식품·바이오 보관, 연구용 냉각에 널리 사용됩니다. 시료 보관, 콜드트랩, 공정 냉각 등 다양한 분야에서 안정적인 성능을 제공합니다. 안전한 취급이 가능한 LGC 용기로 판매합니다.",
+      },
+      {
+        title: "액체알곤 (LAr)",
+        image: "/images/products/argon.jpg",
+        description:
+          "불활성 액체알곤은 용접·금속가공 공정의 보호가스 용도로 활용되며, 고순도 공정에서도 안정적인 분위기 유지를 돕습니다. 산화 방지와 균일한 품질 확보가 필요한 생산 라인에 적합합니다. LGC 용기로 판매합니다.",
+      },
+      {
+        title: "액체산소 (LO2)",
+        image: "/images/products/oxygen.png",
+        description:
+          "고농도 산소를 액체 상태로 공급해 산업용 연소 효율 향상과 의료·연구 분야에 폭넓게 활용됩니다. 절단·용해 공정, 산소 농도 관리가 필요한 설비에도 안정적으로 공급됩니다. 안전한 취급이 가능한 LGC 용기로 판매합니다.",
+      },
+    ],
+    specs: ["DPL-175MP", "DPL-175HP", "DPL-175XP"],
+  },
+  {
     key: "special",
     label: "특수가스",
     heroImage: "/images/common/sv2.jpg",
     items: [
       {
-        title: "반도체용 특수가스",
-        image: "/images/products/semiconductor-gas.png",
-        description:
-          "반도체 제조 공정에 사용되는 고순도 특수가스입니다. 에칭, 증착(CVD), 도핑, 클리닝 등 다양한 공정에 필수입니다. NF3, SiH4, NH3, HCl, PH3 등 다양한 품목을 취급합니다. Class 10~100 수준의 초고순도 가스 공급 시스템을 갖추고 있습니다.",
-      },
-      {
         title: "혼합가스 (Mixed Gases)",
         image: "/images/products/mixed-gas.png",
         description:
           "산업 및 연구 목적에 맞춘 맞춤형 조성 가스입니다. 분석용, 교정용, 용접, 의료, 환경 측정 등 다양한 용도에 적용됩니다. 정밀한 농도 제어 및 국제 규격 인증이 가능합니다. 사용 목적에 맞춘 고압 실린더 및 패키지 제공이 가능합니다.",
-      },
-      {
-        title: "독성가스 (Toxic Gases)",
-        image: "/images/products/toxic-gas.png",
-        description:
-          "고위험 반응성 또는 유해성 가스를 안전하게 공급합니다. 반도체·화학 공정 및 특수 실험에 사용되는 고순도 가스입니다. Cl2, H2S, SO2, CO, NO 등 다양한 품목을 취급합니다. 전용 용기, 밸브, 누출방지 시스템을 완비하고 있습니다.",
       },
       {
         title: "실험·분석용 희귀가스 (Rare Gases for Lab & Analysis)",

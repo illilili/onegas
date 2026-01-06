@@ -18,12 +18,12 @@ export default function Footer() {
               className="h-10 w-auto"
             />
             <address className="not-italic leading-6 text-neutral-600">
-              <span className="mr-6 inline-block">주소 : 대전광역시 대덕구 신대동 411-34</span>
-              <span className="mr-6 inline-block">사업자등록번호 : </span>
+              <span className="mr-6 inline-block">주소 : 대전광역시 대덕구 신탄진로 115번안길24</span>
+              <span className="mr-6 inline-block">사업자등록번호 : 783-51-00505</span>
               <br />
-              <span className="mr-6 inline-block">대표번호 : 042-624-4001</span>
-              <span className="mr-6 inline-block">팩스번호 : </span>
-              <span className="inline-block">이메일 : onegas@naver.com</span>
+              <span className="mr-6 inline-block">회사 대표번호 : 042.624.4001</span>
+              <span className="mr-6 inline-block">팩스번호 : 042.632.4001</span>
+              <span className="inline-block">이메일 : onegas4200@naver.com</span>
             </address>
             <div className="text-xs text-neutral-500">
               COPYRIGHT ⓒ {new Date().getFullYear()} 원가스. ALL RIGHTS RESERVED.
@@ -119,8 +119,8 @@ export default function Footer() {
                   </div>
                   <div>
                     <strong className="block text-neutral-800">8. 개인정보 문의</strong>
-                    <p>이메일: onegas@naver.com</p>
-                    <p>전화: 042-624-4001</p>
+                    <p>이메일: onegas4200@naver.com</p>
+                    <p>전화: 042.624.4001</p>
                   </div>
                 </div>
               </div>
