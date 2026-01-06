@@ -2,7 +2,6 @@ import SubLayout from "@/components/SubLayout";
 
 const COMPANY_TABS = [
   { label: "인사말", href: "/company/greeting" },
-  { label: "허가 인증서", href: "/company/certificate" },
   { label: "사업장소개", href: "/company/factory" },
 ];
 
