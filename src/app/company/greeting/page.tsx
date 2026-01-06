@@ -27,7 +27,7 @@ export default function GreetingPage() {
               홈페이지에 오신 여러분을 환영합니다.
             </h3>
             <div className="space-y-4 text-sm leading-6 text-neutral-700">
-              <p>안녕하세요. 원가스 대표입니다.</p>
+              <p>안녕하세요. 원가스 대표 반승춘입니다.</p>
               <p>“안전은 모든 것의 시작입니다.”</p>
               <p>
                 원가스는 이 신념을 바탕으로, 안전한 가스 공급과 철저한 품질 관리로
