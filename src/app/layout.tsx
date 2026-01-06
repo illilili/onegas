@@ -5,6 +5,9 @@ import Footer from "@/components/Footer";
 export const metadata = {
   title: "원가스",
   description: "원가스 가스 공급 및 산업용 가스 솔루션",
+  icons: {
+    icon: "/images/common/logo-2.PNG",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
