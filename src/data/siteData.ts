@@ -118,7 +118,7 @@ export const productCategories: ProductCategory[] = [
       },
       {
         title: "액체산소 (LO2)",
-        image: "/images/products/oxygen.png",
+        image: "/images/products/liquid-oxygen.png",
         description:
           "고농도 산소를 액체 상태로 공급해 산업용 연소 효율 향상과 의료·연구 분야에 폭넓게 활용됩니다. 절단·용해 공정, 산소 농도 관리가 필요한 설비에도 안정적으로 공급됩니다. 안전한 취급이 가능한 LGC 용기로 판매합니다.",
       },
@@ -140,7 +140,7 @@ export const productCategories: ProductCategory[] = [
         title: "실험·분석용 희귀가스 (Rare Gases for Lab & Analysis)",
         image: "/images/products/rare-gas.png",
         description:
-          "분석기기, 연구개발, 표준 교정용으로 사용되는 고순도 희귀가스입니다. He, Ne, Kr, Xe 등 고가·고순도 기체를 안정적으로 공급합니다. GC, LC, MS 등의 분석 장비에 최적화되어 있습니다. 초고순도 등급(99.9999% 이상) 및 정밀한 유량 관리를 제공합니다.",
+          "분석기기, 연구개발, 표준 교정용으로 사용되는 고순도 희귀가스입니다. He, Ne, Kr, Xe 등 고가·고순도 기체를 안정적으로 공급합니다.",
       },
     ],
   },

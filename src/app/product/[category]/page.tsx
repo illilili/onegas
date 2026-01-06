@@ -32,7 +32,13 @@ export default async function ProductCategoryPage({ params }: PageProps) {
           >
             {item.image ? (
               <div className="flex items-center justify-center rounded-xl bg-[color:var(--brand-blue-soft)]/40 p-4">
-                <img src={item.image} alt={item.title} className="h-40 w-auto" />
+                <div className="h-32 w-44 overflow-hidden rounded-lg bg-white/70">
+                  <img
+                    src={item.image}
+                    alt={item.title}
+                    className="h-full w-full object-cover"
+                  />
+                </div>
               </div>
             ) : (
               <div className="flex items-center justify-center rounded-xl bg-neutral-100 p-4 text-xs text-neutral-500">
