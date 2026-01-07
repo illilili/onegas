@@ -1,4 +1,4 @@
-import SubLayout from "@/components/SubLayout";
+﻿import SubLayout from "@/components/SubLayout";
 
 const COMPANY_TABS = [
   { label: "인사말", href: "/company/greeting" },
@@ -22,22 +22,27 @@ export default function GreetingPage() {
             className="h-[320px] w-full rounded-2xl object-cover sm:h-[360px] lg:h-[520px]"
           />
           <div className="flex h-full flex-col justify-center space-y-6">
-            <h3 className="text-2xl font-semibold leading-snug">
-              <span className="font-bold text-[color:var(--brand-blue)]">원가스</span>{" "}
-              홈페이지에 오신 여러분을 환영합니다.
+            <h3 className="text-2xl font-bold leading-snug">
+              <span className="block">안녕하십니까.</span>
+              <span className="block">
+                <span className="text-[color:var(--brand-blue)]">원가스</span>
+                를 찾아주셔서 감사합니다.
+              </span>
             </h3>
             <div className="space-y-4 text-sm leading-6 text-neutral-700">
-              <p>안녕하세요. 원가스 대표 반승춘입니다.</p>
-              <p>“안전은 모든 것의 시작입니다.”</p>
+              <p>원가스 대표 반승춘입니다.</p>
+              <p>안전하게, 정확하게</p>
               <p>
-                원가스는 이 신념을 바탕으로, 안전한 가스 공급과 철저한 품질 관리로
-                언제나 신뢰받는 파트너가 되기 위해 끊임없이 노력하고 있습니다. 고객님의
-                믿음에 보답할 수 있도록, 변함없는 품질과 철저한 안전 관리로 기대에
-                부응하겠습니다.
+                원가스는 가스 공급 시 취급 가스의 특성과 사용 환경을 고려하여, 공급과 관리가
+                안정적으로 이루어질 수 있도록 하고 있습니다.
               </p>
               <p>
-                원가스를 찾아주셔서 감사합니다. 앞으로도 고객님의 안전을 최우선으로
-                생각하는 원가스가 되겠습니다.
+                정확한 공급과 지속적인 점검을 기본으로 하며, 고객이 안심하고 사용할 수 있는 가스
+                공급 환경을 유지하는 데 집중하고 있습니다.
+              </p>
+              <p>
+                앞으로도 정해진 기준에 따른 관리와 책임 있는 운영을 통해, 신뢰할 수 있는 가스 공급처로
+                역할을 다하겠습니다.
               </p>
               <p>감사합니다.</p>
               <p className="font-semibold">원가스 대표 반승춘</p>

@@ -26,13 +26,13 @@ export const productCategories: ProductCategory[] = [
       },
       {
         title: "질소 (N₂)",
-        image: "/images/products/nitrogen.png",
+        image: "/images/products/nitrogen.jpg",
         description:
           "질소는 비활성 기체로, 반응 방지와 분위기 조성용으로 널리 사용됩니다. 반도체, 식품 포장, 화학 공정, 제약 산업에서 필수적인 공정용 가스입니다. 또한 극저온 냉각제 및 퍼지·가압용으로 활용됩니다. 고순도 기체 및 액체 질소 공급이 가능합니다.",
       },
       {
         title: "이산화탄소 (CO₂)",
-        image: "/images/products/co2.png",
+        image: "/images/products/co2.jpg",
         description:
           "이산화탄소는 식음료 탄산화, 식품 보존, 용접 등에 사용됩니다. 드라이아이스 제조, 냉각 공정 및 화재 진압용으로도 활용됩니다. 화학·환경·플랜트 분야에서도 다양하게 쓰입니다. 기체 및 액체 상태로 안정적으로 공급 가능합니다.",
       },
@@ -56,7 +56,7 @@ export const productCategories: ProductCategory[] = [
       },
       {
         title: "헬륨 (He)",
-        image: "/images/products/helium.png",
+        image: "/images/products/helium.jpg",
         description:
           "헬륨은 반응성이 거의 없는 비활성 기체로, 반도체, 광섬유, MRI 냉각, 누설 검사, 풍선 충전 등에 활용됩니다. 극저온 특성과 경량성을 갖춘 안정적인 가스입니다. 고순도 헬륨을 다양한 용기 형태로 공급합니다.",
       },
@@ -106,13 +106,13 @@ export const productCategories: ProductCategory[] = [
     items: [
       {
         title: "액체질소 (LN2)",
-        image: "/images/products/nitrogen.png",
+        image: "/images/products/liquid-nitrogen.jpg",
         description:
           "극저온 액체질소는 급속 냉각과 장기 보존에 적합해 금속 열처리, 식품·바이오 보관, 연구용 냉각에 널리 사용됩니다. 시료 보관, 콜드트랩, 공정 냉각 등 다양한 분야에서 안정적인 성능을 제공합니다. 안전한 취급이 가능한 LGC 용기로 판매합니다.",
       },
       {
         title: "액체알곤 (LAr)",
-        image: "/images/products/argon.jpg",
+        image: "/images/products/liquid-argon.jpg",
         description:
           "불활성 액체알곤은 용접·금속가공 공정의 보호가스 용도로 활용되며, 고순도 공정에서도 안정적인 분위기 유지를 돕습니다. 산화 방지와 균일한 품질 확보가 필요한 생산 라인에 적합합니다. LGC 용기로 판매합니다.",
       },
